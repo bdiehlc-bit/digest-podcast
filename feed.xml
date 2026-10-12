@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digest Diário em Áudio</title>
+    <link>https://bdiehlc-bit.github.io/digest-podcast/</link>
+    <atom:link href="https://bdiehlc-bit.github.io/digest-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>A conversa de cada manhã sobre as notícias do Digest Diário: Bélgica, Brasil, tecnologia e o mundo, com Ana e Leo.</description>
+    <language>pt-br</language>
+    <itunes:author>Digest Diário</itunes:author>
+    <itunes:image href="https://bdiehlc-bit.github.io/digest-podcast/capa.jpg"/>
+    <itunes:category text="News"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>Episódio de teste — vozes Kore e Puck</title>
+      <description>Neste episódio: Orçamento federal belga, Greve nos serviços públicos, Eleição no Brasil, Tecnologia, Mundo.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-12</link>
+      <guid isPermaLink="false">2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-12.mp3" length="1628733" type="audio/mpeg"/>
+      <itunes:duration>4:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

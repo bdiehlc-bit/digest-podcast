@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Digest Diário em Áudio</title>
+<link rel="alternate" type="application/rss+xml" title="Digest Diário em Áudio" href="feed.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: uma coluna estreita; o episódio do dia em destaque, arquivo abaixo como lista de datas */
+:root{
+  --bg:#F5F7FA; --surface:#FFFFFF; --fg:#16202C; --muted:#5A6878; --line:#D8DFE7;
+  --accent:#1F3A5F; --accent-fg:#FFFFFF; --accent-soft:#E4EBF3;
+  --display:"Literata",Georgia,"Times New Roman",serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E141B; --surface:#16202C; --fg:#E6ECF2; --muted:#9AA8B8; --line:#2A3746;
+  --accent:#8FB3DE; --accent-fg:#0E141B; --accent-soft:#1E2C3C; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E141B; --surface:#16202C; --fg:#E6ECF2; --muted:#9AA8B8; --line:#2A3746;
+  --accent:#8FB3DE; --accent-fg:#0E141B; --accent-soft:#1E2C3C; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:28px 48px;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:4px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(26px,6vw,34px);line-height:1.15;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0}
+.now{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:14px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.now h2{font-family:var(--display);font-weight:500;font-size:21px;line-height:1.3;margin:0;text-wrap:balance}
+audio{width:100%}
+.speeds{display:flex;gap:8px;flex-wrap:wrap}
+.speeds button{font-family:var(--mono);font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.speeds button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.speeds button:focus-visible,.ep:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chap h3,.arch h3{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:500}
+.chap ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:4px}
+.arch ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ep{display:flex;gap:14px;align-items:baseline;width:100%;text-align:left;padding:12px 4px;background:transparent;border:0;border-bottom:1px solid var(--line);color:var(--fg);font:inherit;cursor:pointer}
+.ep:hover{background:var(--accent-soft)}
+.ep .d{font-family:var(--mono);font-size:13px;color:var(--muted);flex:0 0 auto;font-variant-numeric:tabular-nums}
+.ep .t{min-width:0;flex:1}
+.ep .len{font-family:var(--mono);font-size:13px;color:var(--muted);flex:0 0 auto}
+.ep[aria-current="true"] .t{font-weight:600;color:var(--accent)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:24px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.sub a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Bélgica · Brasil · Tecnologia · Mundo</span>
+    <h1>Digest Diário em Áudio</h1>
+    <p class="sub">A conversa de cada manhã sobre as notícias do e-mail, com Ana e Leo. <a href="feed.xml">Assinar no app de podcast (RSS)</a></p>
+  </header>
+  <p class="empty" id="empty" hidden>Ainda não há episódios. O primeiro aparece aqui depois da próxima edição.</p>
+  <section class="now" id="now" hidden>
+    <div class="meta"><span id="nowDate"></span><span id="nowLen"></span></div>
+    <h2 id="nowTitle"></h2>
+    <audio id="player" controls preload="metadata"></audio>
+    <div class="speeds" role="group" aria-label="Velocidade">
+      <button type="button" data-r="1" aria-pressed="true">1×</button>
+      <button type="button" data-r="1.25" aria-pressed="false">1,25×</button>
+      <button type="button" data-r="1.5" aria-pressed="false">1,5×</button>
+    </div>
+    <div class="chap"><h3>Neste episódio</h3><ol id="chapters"></ol></div>
+  </section>
+  <section class="arch" id="arch" hidden>
+    <h3>Episódios anteriores</h3>
+    <ul id="list"></ul>
+  </section>
+</div>
+<script>
+(function(){
+  var player=document.getElementById('player'), rate=1, eps=[], cur=0;
+  var meses=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+  function fmt(d){var p=String(d||'').split('-');return p.length===3?(+p[2])+' '+meses[+p[1]-1]+' '+p[0]:d;}
+  function slug(e){return String(e.arquivo||'').split('/').pop().replace(/\.mp3$/,'');}
+  function show(i,keepUrl){
+    cur=i; var e=eps[i];
+    if(!keepUrl){try{history.replaceState(null,'','?ep='+encodeURIComponent(slug(e)));}catch(_){}}
+    document.getElementById('nowDate').textContent=fmt(e.data);
+    document.getElementById('nowLen').textContent=e.duracao?e.duracao+' min':'';
+    document.getElementById('nowTitle').textContent=e.titulo||'';
+    player.src=e.arquivo; player.playbackRate=rate;
+    var ol=document.getElementById('chapters'); ol.textContent='';
+    (e.capitulos||[]).forEach(function(c){var li=document.createElement('li');li.textContent=c;ol.appendChild(li);});
+    document.querySelectorAll('.ep').forEach(function(b){b.setAttribute('aria-current',String(+b.dataset.i===i));});
+  }
+  document.querySelectorAll('.speeds button').forEach(function(b){
+    b.addEventListener('click',function(){
+      rate=parseFloat(b.dataset.r); player.playbackRate=rate;
+      document.querySelectorAll('.speeds button').forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});
+    });
+  });
+  player.addEventListener('loadedmetadata',function(){player.playbackRate=rate;});
+  fetch('episodes.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];}).then(function(list){
+    eps=Array.isArray(list)?list:[];
+    if(!eps.length){document.getElementById('empty').hidden=false;return;}
+    document.getElementById('now').hidden=false;
+    if(eps.length>1){
+      var ul=document.getElementById('list');
+      eps.forEach(function(e,i){
+        var li=document.createElement('li'), b=document.createElement('button');
+        b.type='button'; b.className='ep'; b.dataset.i=i;
+        var d=document.createElement('span');d.className='d';d.textContent=fmt(e.data);
+        var t=document.createElement('span');t.className='t';t.textContent=e.titulo||'';
+        var l=document.createElement('span');l.className='len';l.textContent=e.duracao||'';
+        b.append(d,t,l); b.addEventListener('click',function(){show(i);window.scrollTo({top:0,behavior:'smooth'});});
+        li.appendChild(b); ul.appendChild(li);
+      });
+      document.getElementById('arch').hidden=false;
+    }
+    var want=new URLSearchParams(location.search).get('ep'), start=0;
+    if(want){for(var k=0;k<eps.length;k++){if(slug(eps[k])===want||eps[k].data===want){start=k;break;}}}
+    show(start,!want);
+  });
+})();
+</script>
+</body>
+</html>
