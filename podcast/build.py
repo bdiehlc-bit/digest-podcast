@@ -1,0 +1,101 @@
+import html
+H='#1F3A5F'
+def esc(s): return html.escape(s,quote=True)
+def news(n,dest=False):
+    t,r,w,v,d,l=n
+    inner=f'''<p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.35;font-weight:bold;color:{H};"><a href="{esc(l)}" style="color:{H};text-decoration:none;">{esc(t)}</a></p><p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222222;">{esc(r)}</p><p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222222;"><b>Por que importa:</b> {esc(w)}</p><p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#666666;">{esc(v)} · {d} · <a href="{esc(l)}" style="color:{H};">Ler a matéria</a></p>'''
+    if dest:
+        return f'''<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#EEF2F7" style="margin:0 0 14px 0;"><tr><td bgcolor="#EEF2F7" style="background-color:#EEF2F7;border-left:4px solid {H};padding:16px 18px;"><p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;color:{H};text-transform:uppercase;">Destaque</p>{inner}</td></tr></table>'''
+    return f'''<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="margin:0 0 14px 0;"><tr><td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:16px 18px;">{inner}</td></tr></table>'''
+def sec(s): return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:10px 0 10px 0;"><tr><td style="border-top:2px solid {H};padding-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:{H};">{s}</td></tr></table>'
+D='22/10/2026'
+dest=("Governo federal belga volta a falhar no orçamento e as conversas seguem na semana que vem (atualização)",
+"Na quarta à noite a coalizão federal de cinco partidos não chegou a acordo, e Bart De Wever disse na quinta que há uma \"proposta robusta\" na mesa; um acordo ainda nesta semana está descartado, segundo a Belga/La Libre. A busca é por cerca de 10 bilhões de euros em economias: o Vooruit acha a divisão do esforço desequilibrada e Maxime Prévot (Les Engagés) rejeita o peso pedido à saúde. A RTBF fala em fechar antes de 31 de outubro; a VRT NWS cita 3 de novembro como nova meta.",
+"De Wever teme que os mercados cobrem mais caro da Bélgica e espera nova nota da S&P; sem orçamento a tempo, o país pode ter de operar com verbas provisórias, e os cortes mexem com saúde, aposentadorias e impostos de quem vive aqui.",
+"La Libre (agência Belga), com RTBF e VRT NWS",D,"https://www.lalibre.be/belgique/politique-belge/2026/10/22/budget-federal-une-proposition-robuste-se-trouve-sur-la-table-selon-de-wever-NCFFI3F5TZHXVA236BZ32MTJMY/")
+bel=[
+("Tempestade Austen chega à Bélgica nesta sexta com alerta laranja de vento",
+"Segundo a RTBF, a primeira tempestade nomeada do outono traz rajadas e chuva forte sobretudo à tarde e à noite desta sexta (23/10). O IRM mantém alerta laranja de vento para Flandres Ocidental, Flandres Oriental e Hainaut a partir das 13h, e amarelo no resto do país. Em Bruxelas, parques e bosques, incluindo a floresta de Soignes, fecham ao público das 13h até sábado.",
+"Hoje, deslocamentos e áreas verdes são afetados; para casos sem urgência (galhos, telhas) use o 1722, e em perigo ligue para o 112.",
+"RTBF",D,"https://www.rtbf.be/article/austen-la-premiere-tempete-de-l-automne-va-balayer-la-belgique-ce-vendredi-11804052"),
+("Governo de Bruxelas aprova orçamento e destrava a nomeação no Actiris",
+"Segundo a La Libre, o governo bruxelense validou o orçamento na quinta, duas semanas depois da saída de Ahmed Laaouej (PS) das negociações. O PS emplacou Isabelle Grippa na direção do Actiris, o MR obteve o fim da forfaitização do imposto predial, e famílias com ao menos dois filhos terão desconto de 10% por filho. O financiamento da habitação social (SLRB) segue em aberto e a trégua é descrita como frágil.",
+"Define impostos e serviços da região onde fica a capital e mostra que, ao contrário do federal, Bruxelas saiu do impasse.",
+"La Libre",D,"https://www.lalibre.be/belgique/politique-belge/2026/10/22/sortie-de-crise-a-bruxelles-ahmed-laaouej-obtient-la-designation-disabelle-grippa-a-la-tete-dactiris-RLN7IELG45E45JD6EP2FEQDBUQ/"),
+("Casa Russa de Bruxelas segue aberta, enquanto Alemanha fechou a sua",
+"Reportagem da La Libre sobre o centro cultural russo de Saint-Josse, ligado à agência Rossotrudnichestvo, que a UE descreve como instrumento de influência do Kremlin. Segundo o jornal, a Alemanha fechou sua casa em setembro, e Dinamarca e Romênia também fecharam as suas. O gabinete do ministro Maxime Prévot diz que nenhuma proibição está prevista e que as atividades são acompanhadas; uma fonte da inteligência, anônima, não vê um ninho de espiões, mas um possível instrumento de controle da diáspora.",
+"Mostra como a Bélgica, sede de UE e Otan, lida com a influência russa em seu território.",
+"La Libre","23/10/2026","https://www.lalibre.be/belgique/judiciaire/2026/10/23/la-maison-russe-de-bruxelles-une-antenne-du-soft-power-du-kremlin-au-coeur-de-la-capitale-europeenne-Q4EACIZNWZCQ7MTVSXJAKPSGYU/"),
+]
+br=[
+("Datafolha aponta empate entre Flávio Bolsonaro e Lula a três dias do segundo turno",
+"Pesquisa Datafolha de 20 a 22 de outubro (2.520 entrevistados, margem de 2 pontos) mostra Flávio e Lula com 50% dos votos válidos cada. Nos votos totais, Flávio tem 47% e Lula 46%. O segundo turno é no domingo, 25/10.",
+"É o retrato mais recente de uma eleição decidida na margem, que define o rumo do Brasil nos próximos anos.",
+"Exame",D,"https://exame.com/brasil/pesquisa-datafolha-flavio-bolsonaro-lula-empatam-numericamente/"),
+("PoderData/AYA: 49% desaprovam Lula e 46% aprovam",
+"Segundo a CNN Brasil, a pesquisa ouviu 4.000 eleitores por telefone em 19 e 20 de outubro, com margem de 1,6 ponto. A desaprovação era de 50% e a aprovação de 44% na rodada anterior.",
+"Ajuda a ler o humor do eleitorado na reta final, ao lado do Datafolha.",
+"CNN Brasil",D,"https://www.cnnbrasil.com.br/politica/poderdata-aya-lula-e-desaprovado-por-49-aprovacao-e-de-46/"),
+("TSE dá 12 horas para a Meta explicar o alcance de perfis de políticos",
+"Segundo O Antagonista, o ministro Ricardo Villas Bôas Cueva exigiu que a Meta explique como chegam aos usuários os posts de Flávio Bolsonaro, Nikolas Ferreira e Pablo Marçal, com multa de R$ 100 mil por hora de atraso. Os dados vão embasar um pedido da coligação de Lula para barrar a recomendação dos perfis de Nikolas e Marçal a quem não os segue; o ministro ainda não decidiu.",
+"Redes sociais e algoritmos viraram frente central da disputa eleitoral na última semana.",
+"O Antagonista",D,"https://oantagonista.com.br/brasil/tse-exige-que-meta-explique-alcance-de-perfis-de-politicos/"),
+("Mendonça diz que cabe a Lula e Flávio abrir seus sigilos, não ao TSE (atualização)",
+"Segundo a Exame, o ministro André Mendonça, do STF e vice-presidente do TSE, afirmou que a divulgação dos sigilos bancário, fiscal e telefônico é escolha de cada candidato, após acordo entre as campanhas para abri-los. Disse ainda que a divulgação voluntária não substitui investigações formais.",
+"Mostra que o debate sobre transparência dos candidatos deve continuar até a votação sem decisão da Justiça Eleitoral.",
+"Exame",D,"https://exame.com/brasil/mendonca-diz-que-flavio-e-lula-podem-abrir-sigilos-e-que-nao-cabe-ao-tse-decidir/"),
+("PF pede investigação sobre suspeita de tráfico de mulheres em festas de Vorcaro",
+"Segundo O Antagonista, a Polícia Federal pediu ao presidente do STF, Edson Fachin, autorização para investigar suspeita de tráfico de mulheres para exploração sexual em festas do banqueiro Daniel Vorcaro, dono do Banco Master. O texto descreve mensagens obtidas pela PF; são suspeitas, sem denúncia nem decisão judicial.",
+"O caso Master segue se desdobrando e atinge o noticiário político em plena campanha.",
+"O Antagonista",D,"https://oantagonista.com.br/brasil/pf-pede-investigacao-sobre-suspeita-de-trafico-de-mulheres-em-festas-de-vorcaro/"),
+]
+tech=[
+("OpenAI negocia nova captação de até US$ 30 bilhões, avaliada em US$ 1,25 trilhão",
+"Segundo o TechCrunch, que cita fontes ouvidas pela CNBC, a rodada seria liderada pela Coatue com investidores dos Emirados Árabes e ainda pode mudar. A última rodada, em março, avaliou a empresa em US$ 852 bilhões, e o pedido de IPO foi protocolado em caráter confidencial em junho.",
+"Mostra a escala do dinheiro por trás da corrida da IA e de uma possível abertura de capital.",
+"TechCrunch",D,"https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"),
+("Falha no PHP tira sites do ar na Europa e correção já saiu (atualização)",
+"Duas falhas críticas no PHP, achadas com ajuda de modelos de IA da OpenAI e do Google, foram corrigidas na quarta nas versões 8.5.12, 8.4.27, 8.3.36 e 8.2.35. Por precaução, órgãos como o DigiD e o Overheid.nl, na Holanda, e portais do governo finlandês saíram do ar; o CERT-EU recomendou isso a quem não podia atualizar de imediato. Segundo a Euronews, não havia exploração ativa confirmada, mas a Cloudflare registrou tráfego de ataque.",
+"Sites e serviços públicos que usamos podem ter ficado indisponíveis, e quem administra sites em PHP precisa atualizar.",
+"Euronews",D,"https://www.euronews.com/2026/10/22/php-security-flaw-why-websites-across-europe-went-dark-and-what-it-means-for-you"),
+("Palantir garante que sistema de IA da Otan não tem \"botão de desligar\"",
+"Louis Mosley, executivo da Palantir, disse à Reuters que nem a empresa nem o governo dos EUA podem desligar o Maven Smart System, usado pelo comando da Otan e por forças europeias. A fala vem após as falhas no Starlink e no Starshield na Ucrânia. Segundo a Euronews, França e Alemanha ficaram de fora do Maven.",
+"Mostra a dependência europeia de tecnologia americana em defesa, tema sensível para a UE.",
+"Euronews",D,"https://www.euronews.com/2026/10/22/palantir-says-nato-ai-system-has-no-kill-switch-after-starlink-disruptions-in-ukraine"),
+]
+mundo=[
+("Barclays vai cortar cerca de 5.000 vagas com ajuda de IA",
+"O banco britânico anunciou na quinta, junto com o balanço do terceiro trimestre, a redução de cerca de 5.000 postos até o fim de 2026, parte deles já feita no primeiro semestre. Cerca de 60% atingem funções de apoio. O lucro líquido subiu 13%, segundo a Euronews.",
+"Exemplo concreto de como a IA já muda o emprego no setor financeiro europeu.",
+"Euronews",D,"https://www.euronews.com/2026/10/22/barclays-to-cut-5000-jobs-as-it-turns-to-ai-to-improve-efficiency"),
+("Maior fundo soberano do mundo tem perda de US$ 30 bilhões no trimestre",
+"O fundo da Noruega registrou prejuízo de 278 bilhões de coroas (US$ 30 bilhões) no terceiro trimestre, puxado pela queda dos títulos com a alta dos juros. O retorno geral foi de -0,5%, segundo a Euronews.",
+"Mostra o peso da alta dos juros nos mercados de dívida europeus, tema que também preocupa o orçamento belga.",
+"Euronews",D,"https://www.euronews.com/2026/10/22/worlds-largest-wealth-fund-posts-30bn-loss-as-rising-rates-hit-bonds"),
+("Lucro da Tesla cai 43%, e Tesla e SpaceX estudam fusão (atualização)",
+"A Tesla teve lucro líquido de US$ 787 milhões no trimestre, queda de 43%, segundo a Euronews. Tesla e SpaceX criaram comitês de conselheiros independentes para avaliar uma possível fusão; Musk diz que nada foi acertado.",
+"Uma fusão criaria um grupo avaliado em cerca de US$ 3,5 trilhões e mexeria com o mercado de tecnologia.",
+"Euronews",D,"https://www.euronews.com/2026/10/22/teslas-profit-drops-as-it-explores-a-possible-merger-with-musks-other-public-company-space"),
+("Caminhoneiros bloqueiam estradas na Itália e faltam produtos no sul",
+"Segundo a VRT NWS, há mais de uma semana motoristas protestam contra o preço do diesel, pedágios e atrasos em ajuda do Estado. Há prateleiras vazias no sul, e a produção de massa fresca e de muçarela de búfala parou na Campânia. O governo prepara um pacote de cerca de 550 milhões de euros.",
+"Mostra o efeito da alta do diesel na Europa e pode pesar em preços de alimentos italianos.",
+"VRT NWS",D,"https://www.vrt.be/vrtnws/nl/2026/10/22/italie-blokkades-vrachtwagens-tekorten/"),
+("França registra primeiro caso humano conhecido do vírus Shamonda",
+"Segundo a VRT NWS, o paciente, imunodeprimido, morreu em Lyon no início de outubro; as autoridades investigam se o vírus causou ou contribuiu para a morte. A transmissão provável é por mosquito, e os ministérios franceses dizem que não há risco para a população geral. O vírus já foi detectado em animais em países europeus, inclusive na Bélgica.",
+"Caso inédito perto da Bélgica, com o ECDC avaliando o impacto; por ora sem risco declarado ao público.",
+"VRT NWS",D,"https://www.vrt.be/vrtnws/nl/2026/10/22/shamonda-virus-eerste-besmetting-bij-de-mens/"),
+]
+total=1+len(bel)+len(br)+len(tech)+len(mundo)
+body=news(dest,True)
+for name,lst in (("Bélgica",bel),("Brasil",br),("Tecnologia e IA",tech),("Economia e mundo",mundo)):
+    body+=sec(name)+''.join(news(n) for n in lst)
+pod=f'''<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#EEF2F7" style="margin:0 0 14px 0;"><tr><td bgcolor="#EEF2F7" style="background-color:#EEF2F7;padding:14px 18px;"><p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;"><b>Ouvir o resumo desta edição</b> · 5:17 min, com Ana e Leo</p><table role="presentation" cellpadding="0" cellspacing="0" border="0" bgcolor="{H}"><tr><td bgcolor="{H}" style="background-color:{H};padding:10px 18px;"><a href="https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-23" style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;">Ouvir agora</a></td></tr></table></td></tr></table>'''
+out=f'''<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;padding:0;background-color:#FFFFFF;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tr><td align="center" bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:16px 8px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:640px;"><tr><td>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="{H}"><tr><td bgcolor="{H}" style="background-color:{H};padding:20px 22px;"><p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:bold;color:#FFFFFF;">Digest Diário</p><p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#FFFFFF;">Sexta-feira, 23 de outubro de 2026</p></td></tr></table>
+<p style="margin:14px 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#555555;">{total} notícias de 8 veículos · últimas 24 horas (22/10 06h48 a 23/10 06h48, horário de Bruxelas). Cota de Bélgica abaixo de 5: não houve outras notícias belgas confirmadas e relevantes na janela.</p>
+{pod}{body}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:8px;"><tr><td style="border-top:1px solid #DDDDDD;padding-top:12px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#777777;">Montado automaticamente. Cada notícia foi conferida na fonte ou em segunda fonte. Ouça também no seu app de podcast: https://bdiehlc-bit.github.io/digest-podcast/feed.xml</td></tr></table>
+</td></tr></table></td></tr></table></body></html>'''
+open('podcast/email.html','w',encoding='utf-8').write(out)
+print(total,len(out))
