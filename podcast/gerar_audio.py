@@ -35,7 +35,7 @@ SPEECH_MODE = os.environ.get("PODCAST_INTERACTIONS_MODE", "")
 MAX_ATTEMPTS = int(os.environ.get("PODCAST_MAX_TENTATIVAS", "4"))
 MAX_WAIT = float(os.environ.get("PODCAST_ESPERA_MAX", "90"))
 BASE = "https://generativelanguage.googleapis.com/v1beta"
-CHUNK_CHARS = 1800  # blocos menores evitam timeout e cortes
+CHUNK_CHARS = 4000  # blocos menores evitam timeout e cortes
 TEST_TURNS = [
     {"speaker": "Ana", "text": "Olá, este é um teste rápido de voz."},
     {"speaker": "Leo", "text": "E aqui é o Leo, confirmando que o áudio funciona."},
