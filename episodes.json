@@ -1,5 +1,31 @@
 [
  {
+  "data": "2026-10-29",
+  "titulo": "Ciberataque ao SPF Finances tira do ar o portal MyMinfin",
+  "duracao": "5:05",
+  "arquivo": "audio/2026-10-29.mp3",
+  "capitulos": [
+   "Ciberataque ao SPF Finances",
+   "Orçamento federal belga",
+   "Auditoria do i-Police",
+   "Taxa de 2 euros em encomendas",
+   "Linha de alta tensão na Valônia",
+   "PF e a saída de Flávio Bolsonaro",
+   "Carta de Flávio e resposta do TSE",
+   "Reforma eleitoral de Motta",
+   "Decreto do fim da escala 6x1",
+   "Receita da nuvem Azure",
+   "Anúncios de IA no Google",
+   "Ferramentas de gastos da Anthropic",
+   "Julgamento de Meta e Snap",
+   "Gás europeu passa de 100 euros",
+   "Prejuízo da Volkswagen",
+   "ING corta empregos",
+   "Fed mantém juros",
+   "Acidente de trem na Espanha"
+  ]
+ },
+ {
   "data": "2026-10-28",
   "titulo": "Orçamento federal: governo De Wever tenta evitar eleições antecipadas",
   "duracao": "5:39",
@@ -332,19 +358,6 @@
    "FMI e a zona do euro",
    "BYD e fábrica na França",
    "Cessar-fogo energético incerto"
-  ]
- },
- {
-  "data": "2026-10-12",
-  "titulo": "Episódio de teste — vozes Kore e Puck",
-  "duracao": "4:31",
-  "arquivo": "audio/2026-10-12.mp3",
-  "capitulos": [
-   "Orçamento federal belga",
-   "Greve nos serviços públicos",
-   "Eleição no Brasil",
-   "Tecnologia",
-   "Mundo"
   ]
  }
 ]
