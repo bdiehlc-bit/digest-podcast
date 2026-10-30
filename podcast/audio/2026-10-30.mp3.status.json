@@ -1,0 +1,14 @@
+{
+ "ok": true,
+ "arquivo": "podcast/audio/2026-10-30.mp3",
+ "duracao": "6:16",
+ "segundos": 376,
+ "bytes": 2261901,
+ "blocos": 2,
+ "reaproveitados": 0,
+ "chamadas": 2,
+ "erros": [],
+ "modelos": [
+  "gemini-3.8-flash-tts"
+ ]
+}
