@@ -1,5 +1,30 @@
 [
  {
+  "data": "2026-10-30",
+  "titulo": "Orçamento federal belga segue sem acordo após nova reunião do kern",
+  "duracao": "6:16",
+  "arquivo": "audio/2026-10-30.mp3",
+  "capitulos": [
+   "Orçamento federal sem avanço",
+   "Benefício flamengo e Conselho de Estado",
+   "Trabalho de estudante",
+   "Dados de advogados roubados",
+   "Voo de Flávio pago dos EUA",
+   "Fachin e o caso Master",
+   "PGR e denúncias do Master",
+   "Biometria em linhas de celular",
+   "Assédio eleitoral no trabalho",
+   "Mistral libera modelo aberto",
+   "Investimento da AWS",
+   "Ataque hacker à Binance",
+   "BCE e saída de Lagarde",
+   "Inflação no Japão",
+   "PIB da França",
+   "Inflação e juros nos EUA",
+   "Eleição em Israel"
+  ]
+ },
+ {
   "data": "2026-10-29",
   "titulo": "Ciberataque ao SPF Finances tira do ar o portal MyMinfin",
   "duracao": "5:05",
@@ -334,30 +359,6 @@
    "Bank of America multado",
    "LVMH e a China",
    "Protestos estudantis na França"
-  ]
- },
- {
-  "data": "2026-10-13",
-  "titulo": "Orçamento federal: ainda sem crise, mas sem acordo",
-  "duracao": "5:10",
-  "arquivo": "audio/2026-10-13.mp3",
-  "capitulos": [
-   "Orçamento federal belga e o IVA",
-   "Greve termina com confrontos em Bruxelas",
-   "Filas em Zaventem",
-   "Vendas de imóveis em queda",
-   "Reforço da vacina contra covid",
-   "Fim da escala 6x1 no Senado",
-   "PEC da Segurança",
-   "Caso Master no STF",
-   "TSE e vídeo falso",
-   "Crédito para empreendedores",
-   "Meta lança Muse Wonder",
-   "Microsoft e regras da IA",
-   "Ciberataque a supermercados franceses",
-   "FMI e a zona do euro",
-   "BYD e fábrica na França",
-   "Cessar-fogo energético incerto"
   ]
  }
 ]

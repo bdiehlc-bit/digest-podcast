@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Orçamento federal belga segue sem acordo após nova reunião do kern</title>
+      <description>Neste episódio: Orçamento federal sem avanço, Benefício flamengo e Conselho de Estado, Trabalho de estudante, Dados de advogados roubados, Voo de Flávio pago dos EUA, Fachin e o caso Master, PGR e denúncias do Master, Biometria em linhas de celular, Assédio eleitoral no trabalho, Mistral libera modelo aberto, Investimento da AWS, Ataque hacker à Binance, BCE e saída de Lagarde, Inflação no Japão, PIB da França, Inflação e juros nos EUA, Eleição em Israel.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-30</link>
+      <guid isPermaLink="false">2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-30.mp3" length="2261901" type="audio/mpeg"/>
+      <itunes:duration>6:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Ciberataque ao SPF Finances tira do ar o portal MyMinfin</title>
       <description>Neste episódio: Ciberataque ao SPF Finances, Orçamento federal belga, Auditoria do i-Police, Taxa de 2 euros em encomendas, Linha de alta tensão na Valônia, PF e a saída de Flávio Bolsonaro, Carta de Flávio e resposta do TSE, Reforma eleitoral de Motta, Decreto do fim da escala 6x1, Receita da nuvem Azure, Anúncios de IA no Google, Ferramentas de gastos da Anthropic, Julgamento de Meta e Snap, Gás europeu passa de 100 euros, Prejuízo da Volkswagen, ING corta empregos, Fed mantém juros, Acidente de trem na Espanha.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-29</link>
@@ -139,16 +149,6 @@
       <pubDate>Wed, 14 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-14.mp3" length="1854813" type="audio/mpeg"/>
       <itunes:duration>5:09</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Orçamento federal: ainda sem crise, mas sem acordo</title>
-      <description>Neste episódio: Orçamento federal belga e o IVA, Greve termina com confrontos em Bruxelas, Filas em Zaventem, Vendas de imóveis em queda, Reforço da vacina contra covid, Fim da escala 6x1 no Senado, PEC da Segurança, Caso Master no STF, TSE e vídeo falso, Crédito para empreendedores, Meta lança Muse Wonder, Microsoft e regras da IA, Ciberataque a supermercados franceses, FMI e a zona do euro, BYD e fábrica na França, Cessar-fogo energético incerto.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-13</link>
-      <guid isPermaLink="false">2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-13.mp3" length="1863453" type="audio/mpeg"/>
-      <itunes:duration>5:10</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
