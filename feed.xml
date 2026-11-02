@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>De Wever vai oferecer a demissão do governo ao rei após fracasso do orçamento</title>
+      <description>Neste episódio: Crise do orçamento e demissão, Imposto sobre mais-valias, Folha de pagamento em novembro, Incidente de TI na Delhaize, Cabo subterrâneo da Elia, PEC da Segurança no Senado, Fuga de Flávio e Clarín, Audiência sobre apostas, Lula e programas sociais, Brasileiros deportados, OpenAI e campi de IA, Ciberataques a apps de alerta, Binance retoma saques, Diesel na França, Bulgária elege presidente, Exportações chinesas limpas.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-02</link>
+      <guid isPermaLink="false">2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-02.mp3" length="1717581" type="audio/mpeg"/>
+      <itunes:duration>4:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Sites do SPF Finances voltam após ataque cibernético; prazo do imposto vai até 16 de novembro</title>
       <description>Neste episódio: Sites do SPF Finances voltam, Negociação do orçamento federal, Bancos e reembolso de phishing, Confisco de carro sem carteira, Bônus de emprego em Bruxelas, Sigilo de jornalista e Moraes, Vaga no STF, Rubio e a saída de Flávio, Risco fiscal em 2027, BNDES e ferrovias, Captação da OpenAI, CEO da Apple e a IA, FBI e o hack da Binance, Tribunal Constitucional polonês, Drones e refinaria na Rússia, Protestos na França.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-01</link>
@@ -139,16 +149,6 @@
       <pubDate>Sat, 17 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-17.mp3" length="2369325" type="audio/mpeg"/>
       <itunes:duration>6:34</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>De Wever propõe congelar gastos e indexações em 2027</title>
-      <description>Neste episódio: Orçamento belga: congelar gastos e indexações, Oposição critica ausência de De Wever, Bancos devem reembolsar vítimas de phishing, Covestro e a crise da química em Antuérpia, Fusão dos hospitais públicos de Bruxelas, Pesquisa: segurança no emprego pesa mais, Brasil promulga fim da escala 6x1, Senado aprova teto maior do MEI, Datafolha: empate técnico no segundo turno, TSE proíbe Meta de limitar alcance político, PEC da Segurança travada no Senado, Anthropic: receita e plano de IPO, Meta lança modelo aberto Muse Spark, Anthropic dá acesso à METR, Nvidia abre hub de IA em Estocolmo, Euro cai com inflação americana, Cúpula da UE sem acordo sobre orçamento, Fundo da Noruega e armas nucleares.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-16</link>
-      <guid isPermaLink="false">2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-16.mp3" length="2228493" type="audio/mpeg"/>
-      <itunes:duration>6:11</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

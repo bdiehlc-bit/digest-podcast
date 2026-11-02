@@ -1,5 +1,29 @@
 [
  {
+  "data": "2026-11-02",
+  "titulo": "De Wever vai oferecer a demissão do governo ao rei após fracasso do orçamento",
+  "duracao": "4:46",
+  "arquivo": "audio/2026-11-02.mp3",
+  "capitulos": [
+   "Crise do orçamento e demissão",
+   "Imposto sobre mais-valias",
+   "Folha de pagamento em novembro",
+   "Incidente de TI na Delhaize",
+   "Cabo subterrâneo da Elia",
+   "PEC da Segurança no Senado",
+   "Fuga de Flávio e Clarín",
+   "Audiência sobre apostas",
+   "Lula e programas sociais",
+   "Brasileiros deportados",
+   "OpenAI e campi de IA",
+   "Ciberataques a apps de alerta",
+   "Binance retoma saques",
+   "Diesel na França",
+   "Bulgária elege presidente",
+   "Exportações chinesas limpas"
+  ]
+ },
+ {
   "data": "2026-11-01",
   "titulo": "Sites do SPF Finances voltam após ataque cibernético; prazo do imposto vai até 16 de novembro",
   "duracao": "4:07",
@@ -334,32 +358,6 @@
    "IRIS² e a belga Aerospacelab",
    "Fed: Warsh e a economia",
    "Acordo franco-alemão sobre carros"
-  ]
- },
- {
-  "data": "2026-10-16",
-  "titulo": "De Wever propõe congelar gastos e indexações em 2027",
-  "duracao": "6:11",
-  "arquivo": "audio/2026-10-16.mp3",
-  "capitulos": [
-   "Orçamento belga: congelar gastos e indexações",
-   "Oposição critica ausência de De Wever",
-   "Bancos devem reembolsar vítimas de phishing",
-   "Covestro e a crise da química em Antuérpia",
-   "Fusão dos hospitais públicos de Bruxelas",
-   "Pesquisa: segurança no emprego pesa mais",
-   "Brasil promulga fim da escala 6x1",
-   "Senado aprova teto maior do MEI",
-   "Datafolha: empate técnico no segundo turno",
-   "TSE proíbe Meta de limitar alcance político",
-   "PEC da Segurança travada no Senado",
-   "Anthropic: receita e plano de IPO",
-   "Meta lança modelo aberto Muse Spark",
-   "Anthropic dá acesso à METR",
-   "Nvidia abre hub de IA em Estocolmo",
-   "Euro cai com inflação americana",
-   "Cúpula da UE sem acordo sobre orçamento",
-   "Fundo da Noruega e armas nucleares"
   ]
  }
 ]
