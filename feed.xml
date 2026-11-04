@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Rei ouve partidos na crise do orçamento; OCDE alerta para as contas da Bélgica</title>
+      <description>Neste episódio: Crise do orçamento e o rei, OCDE e contas públicas, Ataque às geladeiras, Túnel Léonard fechado, Doações em cartório, PEC da Segurança aprovada, Maioridade penal, Apostas online no STF, Exames de Lula, Anthropic FlashProve, Fal vale 16 bilhões, Apple e apps 18+, Prejuízo da Anthropic, Democratas vencem nos EUA, Mercados reagem, Sucessão de Lagarde, Aquecimento na Europa, Fronteira da Polônia.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-04</link>
+      <guid isPermaLink="false">2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-04.mp3" length="2083341" type="audio/mpeg"/>
+      <itunes:duration>5:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>De Wever vai oferecer a demissão do governo ao rei após fracasso do orçamento</title>
       <description>Neste episódio: Crise do orçamento e demissão, Imposto sobre mais-valias, Folha de pagamento em novembro, Incidente de TI na Delhaize, Cabo subterrâneo da Elia, PEC da Segurança no Senado, Fuga de Flávio e Clarín, Audiência sobre apostas, Lula e programas sociais, Brasileiros deportados, OpenAI e campi de IA, Ciberataques a apps de alerta, Binance retoma saques, Diesel na França, Bulgária elege presidente, Exportações chinesas limpas.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-02</link>
@@ -139,16 +149,6 @@
       <pubDate>Sun, 18 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-18.mp3" length="2011773" type="audio/mpeg"/>
       <itunes:duration>5:35</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Preços de energia sobem na Bélgica com a chegada do inverno</title>
-      <description>Neste episódio: Preços de diesel e gás sobem, UE pede resposta à crise de energia, Orçamento belga: ministros se reúnem, Falências em setembro na Bélgica, Rússia toma filial da Ontex, Flexi-jobs para doentes de longa duração, Protestos previstos em Bruxelas, Ativos russos e caças F-16, Trump suspende sanções à Rússia, Câmara aplica fim da escala 6x1, Pesquisa PoderData: empate, Flávio na Globo: ajuste fiscal, Meta admite falhas na campanha, PF ouve envolvidos no caso Master, Replit e Anthropic, Agentes de IA fora de controle na Índia, IRIS² e a belga Aerospacelab, Fed: Warsh e a economia, Acordo franco-alemão sobre carros.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-17</link>
-      <guid isPermaLink="false">2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-17.mp3" length="2369325" type="audio/mpeg"/>
-      <itunes:duration>6:34</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
