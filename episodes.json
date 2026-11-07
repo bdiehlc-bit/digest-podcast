@@ -1,5 +1,29 @@
 [
   {
+    "data": "2026-11-07",
+    "titulo": "Rei recusa demissão de De Wever e dá dez dias para acordo no orçamento",
+    "duracao": "4:01",
+    "arquivo": "audio/2026-11-07.mp3",
+    "capitulos": [
+      "Rei recusa demissão de De Wever",
+      "Duodécimos provisórios sem orçamento",
+      "Acordos sociais na Skeyes",
+      "Ocupação na ULB",
+      "Lista de espera para consultas",
+      "Casas de apostas suspensas no Brasil",
+      "Nomes para a Fazenda",
+      "Delação no caso Master",
+      "OAB da Medicina sancionada",
+      "OpenAI capta 11 bilhões",
+      "Gasto com IA desacelera",
+      "Google compra projeto da Crusoe",
+      "Queda dos semicondutores",
+      "Produção industrial alemã",
+      "Stephen Miller na Casa Branca",
+      "Paraguai destitui presidente"
+    ]
+  },
+  {
     "data": "2026-11-06",
     "titulo": "Crise política federal: rei decide hoje sobre a renúncia de De Wever",
     "duracao": "5:31",
@@ -325,34 +349,6 @@
       "Juros imobiliários na Alemanha",
       "SpaceX e Tesla",
       "Novo governo na Romênia"
-    ]
-  },
-  {
-    "data": "2026-10-20",
-    "titulo": "Setca acusa governo de recusar prépension para demitidos da GSK",
-    "duracao": "5:02",
-    "arquivo": "audio/2026-10-20.mp3",
-    "capitulos": [
-      "GSK e a prépension",
-      "Gendarmerie 2.0",
-      "Orçamento de saúde sem acordo",
-      "Alerta do Banco Nacional",
-      "Ciberataque na Delhaize",
-      "Vinheta da Valônia",
-      "Horário de inverno",
-      "Pesquisas do segundo turno",
-      "Lula, Meta e TSE",
-      "Sigilos de Lula",
-      "Inquérito sobre Flávio",
-      "PEC da Segurança adiada",
-      "Microsoft e agentes de IA",
-      "Anthropic e Nscale",
-      "Noruega e idade mínima",
-      "Huang e a Alemanha",
-      "Danos na França",
-      "Roche e a Alemanha",
-      "Mísseis para a Ucrânia",
-      "Dimon e a economia dos EUA"
     ]
   }
 ]
