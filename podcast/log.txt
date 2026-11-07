@@ -1,0 +1,5 @@
+{"bloco": 0, "tentativa": 1, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "http": 503, "resultado": "erro", "tipo": "transitorio", "mensagem": "{\"error\":{\"message\":\"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"service_unavailable\"}}"}
+{"bloco": 0, "tentativa": 1, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "espera_s": 30.0}
+{"bloco": 0, "tentativa": 2, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "http": 503, "resultado": "erro", "tipo": "transitorio", "mensagem": "{\"error\":{\"message\":\"gemini-3.8-flash-tts is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.\",\"code\":\"service_unavailable\"}}"}
+{"bloco": 0, "tentativa": 2, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "espera_s": 30.0}
+{"bloco": 0, "tentativa": 3, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "http": 200, "resultado": "ok"}

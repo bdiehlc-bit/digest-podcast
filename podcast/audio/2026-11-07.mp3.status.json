@@ -1,0 +1,31 @@
+{
+ "ok": true,
+ "arquivo": "podcast/audio/2026-11-07.mp3",
+ "duracao": "4:01",
+ "segundos": 241,
+ "bytes": 1451325,
+ "blocos": 1,
+ "reaproveitados": 0,
+ "chamadas": 3,
+ "erros": [
+  {
+   "bloco": 0,
+   "tentativa": 1,
+   "rota": "interactions",
+   "modelo": "gemini-3.8-flash-tts",
+   "http": 503,
+   "tipo": "transitorio"
+  },
+  {
+   "bloco": 0,
+   "tentativa": 2,
+   "rota": "interactions",
+   "modelo": "gemini-3.8-flash-tts",
+   "http": 503,
+   "tipo": "transitorio"
+  }
+ ],
+ "modelos": [
+  "gemini-3.8-flash-tts"
+ ]
+}
