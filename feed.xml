@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Bélgica sem orçamento: dívida passa de 719 bilhões de euros</title>
+      <description>Neste episódio: Orçamento e dívida da Bélgica, Ryanair: mala 60 minutos antes, Polícia desocupa prédio da ULB, Prisão de Haren: incidentes graves, Sinagoga de Anderlecht e embaixador dos EUA, Bets: PGR pede suspensão de ações, Desembargadora condenada foge para Portugal, Anac, aviões de Vorcaro e Moraes, Lula e o Centrão.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-08</link>
+      <guid isPermaLink="false">2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-08.mp3" length="1929405" type="audio/mpeg"/>
+      <itunes:duration>5:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Rei recusa demissão de De Wever e dá dez dias para acordo no orçamento</title>
       <description>Neste episódio: Rei recusa demissão de De Wever, Duodécimos provisórios sem orçamento, Acordos sociais na Skeyes, Ocupação na ULB, Lista de espera para consultas, Casas de apostas suspensas no Brasil, Nomes para a Fazenda, Delação no caso Master, OAB da Medicina sancionada, OpenAI capta 11 bilhões, Gasto com IA desacelera, Google compra projeto da Crusoe, Queda dos semicondutores, Produção industrial alemã, Stephen Miller na Casa Branca, Paraguai destitui presidente.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-07</link>
@@ -139,16 +149,6 @@
       <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-22.mp3" length="1408845" type="audio/mpeg"/>
       <itunes:duration>3:54</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Orçamento federal belga segue sem acordo; meta é achar 10 bilhões de euros</title>
-      <description>Neste episódio: Orçamento federal sem acordo, IVA e o setor Horeca, Ores sobe tarifas na Valônia, Ryanair corta voos, Quintin e os distúrbios, Fedasil e demissões, Flávio pede anular Lula, Willer Tomaz e as bets, CPMI sobre Flávio, Pesquisa Alfa, Debate da Globo, Projeto de lei da Anthropic, DeepSeek banida nos EUA, Google e Amazon contra Nvidia, Alemanha e Nvidia, Queda do Revolut, Petróleo acima de 110 dólares, Juros imobiliários na Alemanha, SpaceX e Tesla, Novo governo na Romênia.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-21</link>
-      <guid isPermaLink="false">2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-21.mp3" length="1937901" type="audio/mpeg"/>
-      <itunes:duration>5:22</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

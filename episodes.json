@@ -1,5 +1,22 @@
 [
   {
+    "data": "2026-11-08",
+    "titulo": "Bélgica sem orçamento: dívida passa de 719 bilhões de euros",
+    "duracao": "5:21",
+    "arquivo": "audio/2026-11-08.mp3",
+    "capitulos": [
+      "Orçamento e dívida da Bélgica",
+      "Ryanair: mala 60 minutos antes",
+      "Polícia desocupa prédio da ULB",
+      "Prisão de Haren: incidentes graves",
+      "Sinagoga de Anderlecht e embaixador dos EUA",
+      "Bets: PGR pede suspensão de ações",
+      "Desembargadora condenada foge para Portugal",
+      "Anac, aviões de Vorcaro e Moraes",
+      "Lula e o Centrão"
+    ]
+  },
+  {
     "data": "2026-11-07",
     "titulo": "Rei recusa demissão de De Wever e dá dez dias para acordo no orçamento",
     "duracao": "4:01",
@@ -321,34 +338,6 @@
       "Dívida da zona do euro",
       "UE avalia cortes de energia",
       "Rússia liberta americano"
-    ]
-  },
-  {
-    "data": "2026-10-21",
-    "titulo": "Orçamento federal belga segue sem acordo; meta é achar 10 bilhões de euros",
-    "duracao": "5:22",
-    "arquivo": "audio/2026-10-21.mp3",
-    "capitulos": [
-      "Orçamento federal sem acordo",
-      "IVA e o setor Horeca",
-      "Ores sobe tarifas na Valônia",
-      "Ryanair corta voos",
-      "Quintin e os distúrbios",
-      "Fedasil e demissões",
-      "Flávio pede anular Lula",
-      "Willer Tomaz e as bets",
-      "CPMI sobre Flávio",
-      "Pesquisa Alfa",
-      "Debate da Globo",
-      "Projeto de lei da Anthropic",
-      "DeepSeek banida nos EUA",
-      "Google e Amazon contra Nvidia",
-      "Alemanha e Nvidia",
-      "Queda do Revolut",
-      "Petróleo acima de 110 dólares",
-      "Juros imobiliários na Alemanha",
-      "SpaceX e Tesla",
-      "Novo governo na Romênia"
     ]
   }
 ]
