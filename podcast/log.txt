@@ -1,0 +1,2 @@
+{"bloco": 0, "tentativa": 1, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "http": 200, "resultado": "ok"}
+{"bloco": 1, "tentativa": 1, "rota": "interactions", "modelo": "gemini-3.8-flash-tts", "http": 200, "resultado": "ok"}
