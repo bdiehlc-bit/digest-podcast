@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Bélgica retoma negociação do orçamento federal em conversas individuais</title>
+      <description>Neste episódio: Orçamento federal: De Wever retoma conversas, Julgamento da gangue do Peterbos, Justiça federal sem verba para prestadores, Greve de motoristas do Letec, Nova prisão De Kade em Antuérpia, Barco com migrantes em Nieuwpoort, Lula: dívida, juros e responsabilidade fiscal, Quaest: aprovação de Lula em 48%, Lula na COP31 e na Ásia, Nvidia investiga Jensen Huang, Ações de tecnologia se recuperam, Netflix e a regulação europeia, Bolsas europeias após eleição americana, Trump, Putin e Xi na Apec, Trump, Rússia e Europa, Irã e força-tarefa dos EUA, Cracóvia: atirador morre.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-09</link>
+      <guid isPermaLink="false">2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-09.mp3" length="2228493" type="audio/mpeg"/>
+      <itunes:duration>6:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Bélgica sem orçamento: dívida passa de 719 bilhões de euros</title>
       <description>Neste episódio: Orçamento e dívida da Bélgica, Ryanair: mala 60 minutos antes, Polícia desocupa prédio da ULB, Prisão de Haren: incidentes graves, Sinagoga de Anderlecht e embaixador dos EUA, Bets: PGR pede suspensão de ações, Desembargadora condenada foge para Portugal, Anac, aviões de Vorcaro e Moraes, Lula e o Centrão.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-08</link>
@@ -139,16 +149,6 @@
       <pubDate>Fri, 23 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-23.mp3" length="1903773" type="audio/mpeg"/>
       <itunes:duration>5:17</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Governo federal encerra reunião sem acordo orçamentário (atualização)</title>
-      <description>Neste episódio: Governo sem acordo no orçamento, Sindicatos marcam protesto de 23 de novembro, Comerciantes temem novos saques, Falha no PHP derruba sites belgas, Famílias pagam a mais por energia, Compras da Defesa e economia belga, Lula pede cassação da chapa de Flávio, Embate sobre sigilos, Pesquisa Quaest empate técnico, Lei do MEI sancionada, PEC da tarifa zero nos fins de semana, Falhas no PHP achadas por IA, Meta Muse passa de 10 milhões, Trump e dividendo de data centers, Juros da França acima de 5%, Dívida da zona do euro, UE avalia cortes de energia, Rússia liberta americano.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-22</link>
-      <guid isPermaLink="false">2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-22.mp3" length="1408845" type="audio/mpeg"/>
-      <itunes:duration>3:54</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>

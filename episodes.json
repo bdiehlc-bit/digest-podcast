@@ -1,5 +1,30 @@
 [
   {
+    "data": "2026-11-09",
+    "titulo": "Bélgica retoma negociação do orçamento federal em conversas individuais",
+    "duracao": "6:11",
+    "arquivo": "audio/2026-11-09.mp3",
+    "capitulos": [
+      "Orçamento federal: De Wever retoma conversas",
+      "Julgamento da gangue do Peterbos",
+      "Justiça federal sem verba para prestadores",
+      "Greve de motoristas do Letec",
+      "Nova prisão De Kade em Antuérpia",
+      "Barco com migrantes em Nieuwpoort",
+      "Lula: dívida, juros e responsabilidade fiscal",
+      "Quaest: aprovação de Lula em 48%",
+      "Lula na COP31 e na Ásia",
+      "Nvidia investiga Jensen Huang",
+      "Ações de tecnologia se recuperam",
+      "Netflix e a regulação europeia",
+      "Bolsas europeias após eleição americana",
+      "Trump, Putin e Xi na Apec",
+      "Trump, Rússia e Europa",
+      "Irã e força-tarefa dos EUA",
+      "Cracóvia: atirador morre"
+    ]
+  },
+  {
     "data": "2026-11-08",
     "titulo": "Bélgica sem orçamento: dívida passa de 719 bilhões de euros",
     "duracao": "5:21",
@@ -312,32 +337,6 @@
       "Tesla, SpaceX e possível fusão",
       "Bloqueios de caminhoneiros na Itália",
       "Primeiro caso humano do vírus Shamonda"
-    ]
-  },
-  {
-    "data": "2026-10-22",
-    "titulo": "Governo federal encerra reunião sem acordo orçamentário (atualização)",
-    "duracao": "3:54",
-    "arquivo": "audio/2026-10-22.mp3",
-    "capitulos": [
-      "Governo sem acordo no orçamento",
-      "Sindicatos marcam protesto de 23 de novembro",
-      "Comerciantes temem novos saques",
-      "Falha no PHP derruba sites belgas",
-      "Famílias pagam a mais por energia",
-      "Compras da Defesa e economia belga",
-      "Lula pede cassação da chapa de Flávio",
-      "Embate sobre sigilos",
-      "Pesquisa Quaest empate técnico",
-      "Lei do MEI sancionada",
-      "PEC da tarifa zero nos fins de semana",
-      "Falhas no PHP achadas por IA",
-      "Meta Muse passa de 10 milhões",
-      "Trump e dividendo de data centers",
-      "Juros da França acima de 5%",
-      "Dívida da zona do euro",
-      "UE avalia cortes de energia",
-      "Rússia liberta americano"
     ]
   }
 ]
