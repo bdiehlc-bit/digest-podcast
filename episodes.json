@@ -1,5 +1,30 @@
 [
   {
+    "data": "2026-11-10",
+    "titulo": "Bélgica retoma negociação do orçamento com rei recusando demissão de De Wever",
+    "duracao": "4:24",
+    "arquivo": "audio/2026-11-10.mp3",
+    "capitulos": [
+      "Orçamento federal: rodada de conversas",
+      "Blue Dome: escudo aéreo belga",
+      "Deputados de Bruxelas a Kinshasa",
+      "Minerval gratuito ou reduzido",
+      "Custo médio de um kot",
+      "Fachin arquiva inquérito das fake news",
+      "Fim da escala 6x1: STF e decreto",
+      "TSE julga ação de Lula contra Meta",
+      "Vale-alimentação: Justiça suspende regras",
+      "Anthropic: Mythos e Fable 5.2",
+      "Anthropic e a abertura de capital",
+      "Meta lança Muse Ember",
+      "Digital Fairness Act vazado",
+      "Petróleo cai com esperança de acordo",
+      "Superávit comercial da China",
+      "Salário mínimo francês",
+      "Merz e o orçamento europeu"
+    ]
+  },
+  {
     "data": "2026-11-09",
     "titulo": "Bélgica retoma negociação do orçamento federal em conversas individuais",
     "duracao": "6:11",
@@ -312,31 +337,6 @@
       "Merz na Ásia",
       "Eleição em Israel",
       "EU Inc trava no Parlamento"
-    ]
-  },
-  {
-    "data": "2026-10-23",
-    "titulo": "Governo federal belga volta a falhar no orçamento; meta é fechar antes de novembro",
-    "duracao": "5:17",
-    "arquivo": "audio/2026-10-23.mp3",
-    "capitulos": [
-      "Orçamento federal sem acordo",
-      "Tempestade Austen",
-      "Orçamento de Bruxelas e Actiris",
-      "Casa Russa de Bruxelas",
-      "Datafolha aponta empate",
-      "Pesquisa PoderData sobre Lula",
-      "TSE exige explicações da Meta",
-      "Mendonça e os sigilos",
-      "PF e as festas de Vorcaro",
-      "OpenAI negocia nova captação",
-      "Falha no PHP e sites fora do ar",
-      "Palantir e o sistema da Otan",
-      "Barclays corta cinco mil vagas",
-      "Fundo da Noruega perde 30 bilhões",
-      "Tesla, SpaceX e possível fusão",
-      "Bloqueios de caminhoneiros na Itália",
-      "Primeiro caso humano do vírus Shamonda"
     ]
   }
 ]

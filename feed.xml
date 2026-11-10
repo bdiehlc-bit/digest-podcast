@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Bélgica retoma negociação do orçamento com rei recusando demissão de De Wever</title>
+      <description>Neste episódio: Orçamento federal: rodada de conversas, Blue Dome: escudo aéreo belga, Deputados de Bruxelas a Kinshasa, Minerval gratuito ou reduzido, Custo médio de um kot, Fachin arquiva inquérito das fake news, Fim da escala 6x1: STF e decreto, TSE julga ação de Lula contra Meta, Vale-alimentação: Justiça suspende regras, Anthropic: Mythos e Fable 5.2, Anthropic e a abertura de capital, Meta lança Muse Ember, Digital Fairness Act vazado, Petróleo cai com esperança de acordo, Superávit comercial da China, Salário mínimo francês, Merz e o orçamento europeu.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-10</link>
+      <guid isPermaLink="false">2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-10.mp3" length="1586685" type="audio/mpeg"/>
+      <itunes:duration>4:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Bélgica retoma negociação do orçamento federal em conversas individuais</title>
       <description>Neste episódio: Orçamento federal: De Wever retoma conversas, Julgamento da gangue do Peterbos, Justiça federal sem verba para prestadores, Greve de motoristas do Letec, Nova prisão De Kade em Antuérpia, Barco com migrantes em Nieuwpoort, Lula: dívida, juros e responsabilidade fiscal, Quaest: aprovação de Lula em 48%, Lula na COP31 e na Ásia, Nvidia investiga Jensen Huang, Ações de tecnologia se recuperam, Netflix e a regulação europeia, Bolsas europeias após eleição americana, Trump, Putin e Xi na Apec, Trump, Rússia e Europa, Irã e força-tarefa dos EUA, Cracóvia: atirador morre.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-09</link>
@@ -139,16 +149,6 @@
       <pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-27.mp3" length="1921341" type="audio/mpeg"/>
       <itunes:duration>5:20</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Governo federal belga volta a falhar no orçamento; meta é fechar antes de novembro</title>
-      <description>Neste episódio: Orçamento federal sem acordo, Tempestade Austen, Orçamento de Bruxelas e Actiris, Casa Russa de Bruxelas, Datafolha aponta empate, Pesquisa PoderData sobre Lula, TSE exige explicações da Meta, Mendonça e os sigilos, PF e as festas de Vorcaro, OpenAI negocia nova captação, Falha no PHP e sites fora do ar, Palantir e o sistema da Otan, Barclays corta cinco mil vagas, Fundo da Noruega perde 30 bilhões, Tesla, SpaceX e possível fusão, Bloqueios de caminhoneiros na Itália, Primeiro caso humano do vírus Shamonda.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-23</link>
-      <guid isPermaLink="false">2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-23.mp3" length="1903773" type="audio/mpeg"/>
-      <itunes:duration>5:17</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
