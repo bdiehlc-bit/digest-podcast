@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Titre-service fica mais caro na Valônia a partir de janeiro</title>
+      <description>Neste episódio: Titre-service mais caro na Valônia, Orçamento federal: De Wever na Câmara, Plano Social Clima da Valônia, Crise de acolhimento de asilo, Professores: mais horas mantidas, Excesso de velocidade quase dobra, Senado aprova ajuste fiscal, PGR contra revisão de Bolsonaro, Escala 6x1: regras de transição, Zanin barra segundo turno no Rio, Vorcaro recorre a Gilmar, Huang sai e vai depor, Pane mundial da Microsoft, United barra agentes de IA, Ataque à Fireworks expõe Notion, Europa e as negociações de paz, Mercedes congela investimentos na Alemanha, Reino Unido cresce 0,7%, Holanda: crise no plano fiscal.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-13</link>
+      <guid isPermaLink="false">2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-13.mp3" length="1901181" type="audio/mpeg"/>
+      <itunes:duration>5:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Governo belga lança plano com 29 medidas contra fraudes online</title>
       <description>Neste episódio: Plano federal contra fraude online, Orçamento: De Wever cancela agenda, Eletricidade três vezes mais cara, Sobrevoo de Bruxelas: recurso perdido, CPAS rurais da Valônia sobrecarregados, Falências silenciosas em alta, Guerra híbrida russa se intensifica, Senado e o ajuste fiscal, Lula e Delcy Rodríguez, PGR quer Vorcaro preso, Crise na Polícia Federal, MP das bets prorrogada, Nvidia pode afastar Jensen Huang, OpenAI passa de 10 bilhões, Digital Fairness Act apresentado, Lei europeia de nuvem e IA, Zelensky e enviados dos EUA em Dublin, Bélgica: luz entre as mais caras, Petroleiros em chamas em Ormuz, Greve geral na Espanha.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-12</link>
@@ -139,16 +149,6 @@
       <pubDate>Fri, 30 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-30.mp3" length="2261901" type="audio/mpeg"/>
       <itunes:duration>6:16</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Ciberataque ao SPF Finances tira do ar o portal MyMinfin</title>
-      <description>Neste episódio: Ciberataque ao SPF Finances, Orçamento federal belga, Auditoria do i-Police, Taxa de 2 euros em encomendas, Linha de alta tensão na Valônia, PF e a saída de Flávio Bolsonaro, Carta de Flávio e resposta do TSE, Reforma eleitoral de Motta, Decreto do fim da escala 6x1, Receita da nuvem Azure, Anúncios de IA no Google, Ferramentas de gastos da Anthropic, Julgamento de Meta e Snap, Gás europeu passa de 100 euros, Prejuízo da Volkswagen, ING corta empregos, Fed mantém juros, Acidente de trem na Espanha.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-29</link>
-      <guid isPermaLink="false">2026-10-29</guid>
-      <pubDate>Thu, 29 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-29.mp3" length="1833933" type="audio/mpeg"/>
-      <itunes:duration>5:05</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
