@@ -1,5 +1,32 @@
 [
  {
+  "data": "2026-11-14",
+  "titulo": "Orçamento belga: sem acordo, núcleo do governo volta a negociar no domingo",
+  "duracao": "5:21",
+  "arquivo": "audio/2026-11-14.mp3",
+  "capitulos": [
+   "Orçamento: sem acordo, kern no domingo",
+   "Asilo: casos Dublin perdem acolhimento",
+   "SNCB: nova tarifa atrai passageiros",
+   "Equinor suspende gasoduto de CO2",
+   "Wise fecha acordo com Justiça belga",
+   "Senado contesta Dino na escala 6x1",
+   "Toffoli cobra explicações da campanha de Lula",
+   "PT propõe imposto sobre grandes fortunas",
+   "CNJ suspende prazos após pane",
+   "União condenada por Canudos",
+   "ChatGPT lança carteira para agentes",
+   "Chips proibidos em modelos chineses",
+   "LangChain vale 3 bilhões",
+   "Cúpula europeia de IA em Dublin",
+   "De Cos favorito para o BCE",
+   "Diesel europeu segue caro",
+   "Pane para voos nos EUA",
+   "Ucrânia: quem fala pela Europa",
+   "França: greve de servidores dia 17"
+  ]
+ },
+ {
   "data": "2026-11-13",
   "titulo": "Titre-service fica mais caro na Valônia a partir de janeiro",
   "duracao": "5:16",
@@ -318,31 +345,6 @@
    "Fitch e a França",
    "Inflação na Itália",
    "Petroleiras e gasolina nos EUA"
-  ]
- },
- {
-  "data": "2026-10-30",
-  "titulo": "Orçamento federal belga segue sem acordo após nova reunião do kern",
-  "duracao": "6:16",
-  "arquivo": "audio/2026-10-30.mp3",
-  "capitulos": [
-   "Orçamento federal sem avanço",
-   "Benefício flamengo e Conselho de Estado",
-   "Trabalho de estudante",
-   "Dados de advogados roubados",
-   "Voo de Flávio pago dos EUA",
-   "Fachin e o caso Master",
-   "PGR e denúncias do Master",
-   "Biometria em linhas de celular",
-   "Assédio eleitoral no trabalho",
-   "Mistral libera modelo aberto",
-   "Investimento da AWS",
-   "Ataque hacker à Binance",
-   "BCE e saída de Lagarde",
-   "Inflação no Japão",
-   "PIB da França",
-   "Inflação e juros nos EUA",
-   "Eleição em Israel"
   ]
  }
 ]

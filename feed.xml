@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Orçamento belga: sem acordo, núcleo do governo volta a negociar no domingo</title>
+      <description>Neste episódio: Orçamento: sem acordo, kern no domingo, Asilo: casos Dublin perdem acolhimento, SNCB: nova tarifa atrai passageiros, Equinor suspende gasoduto de CO2, Wise fecha acordo com Justiça belga, Senado contesta Dino na escala 6x1, Toffoli cobra explicações da campanha de Lula, PT propõe imposto sobre grandes fortunas, CNJ suspende prazos após pane, União condenada por Canudos, ChatGPT lança carteira para agentes, Chips proibidos em modelos chineses, LangChain vale 3 bilhões, Cúpula europeia de IA em Dublin, De Cos favorito para o BCE, Diesel europeu segue caro, Pane para voos nos EUA, Ucrânia: quem fala pela Europa, França: greve de servidores dia 17.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-14</link>
+      <guid isPermaLink="false">2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-14.mp3" length="1928541" type="audio/mpeg"/>
+      <itunes:duration>5:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Titre-service fica mais caro na Valônia a partir de janeiro</title>
       <description>Neste episódio: Titre-service mais caro na Valônia, Orçamento federal: De Wever na Câmara, Plano Social Clima da Valônia, Crise de acolhimento de asilo, Professores: mais horas mantidas, Excesso de velocidade quase dobra, Senado aprova ajuste fiscal, PGR contra revisão de Bolsonaro, Escala 6x1: regras de transição, Zanin barra segundo turno no Rio, Vorcaro recorre a Gilmar, Huang sai e vai depor, Pane mundial da Microsoft, United barra agentes de IA, Ataque à Fireworks expõe Notion, Europa e as negociações de paz, Mercedes congela investimentos na Alemanha, Reino Unido cresce 0,7%, Holanda: crise no plano fiscal.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-13</link>
@@ -139,16 +149,6 @@
       <pubDate>Sat, 31 Oct 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-31.mp3" length="2116605" type="audio/mpeg"/>
       <itunes:duration>5:52</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Orçamento federal belga segue sem acordo após nova reunião do kern</title>
-      <description>Neste episódio: Orçamento federal sem avanço, Benefício flamengo e Conselho de Estado, Trabalho de estudante, Dados de advogados roubados, Voo de Flávio pago dos EUA, Fachin e o caso Master, PGR e denúncias do Master, Biometria em linhas de celular, Assédio eleitoral no trabalho, Mistral libera modelo aberto, Investimento da AWS, Ataque hacker à Binance, BCE e saída de Lagarde, Inflação no Japão, PIB da França, Inflação e juros nos EUA, Eleição em Israel.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-30</link>
-      <guid isPermaLink="false">2026-10-30</guid>
-      <pubDate>Fri, 30 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-30.mp3" length="2261901" type="audio/mpeg"/>
-      <itunes:duration>6:16</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
