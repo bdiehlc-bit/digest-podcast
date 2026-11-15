@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Orçamento federal: De Wever convoca um último kern para este domingo, às 14h</title>
+      <description>Neste episódio: Orçamento: último kern no domingo, Valônia: reforma APE ameaça empregos, ONE sob investigação, Falhas na plataforma policial Focus, Liège: balanço dos tumultos, Mais jovens mortos no trânsito, Nova estação de Pairi Daiza, Escala 6x1 vai ao plenário, Ministério da Segurança em gestação, Cidadania rumo ao Progressistas, Lula nas Filipinas sem voz, Petição pela volta de Huang, Ásia reage à saída de Huang, Itália multa Meta em 805 milhões, Zelensky cobra SpaceX, Donbass em troca de Otan, GPS bloqueado sobre a Holanda, Portugal protesta por moradia, Cúpula da Asean em Manila.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-15</link>
+      <guid isPermaLink="false">2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-15.mp3" length="1854813" type="audio/mpeg"/>
+      <itunes:duration>5:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Orçamento belga: sem acordo, núcleo do governo volta a negociar no domingo</title>
       <description>Neste episódio: Orçamento: sem acordo, kern no domingo, Asilo: casos Dublin perdem acolhimento, SNCB: nova tarifa atrai passageiros, Equinor suspende gasoduto de CO2, Wise fecha acordo com Justiça belga, Senado contesta Dino na escala 6x1, Toffoli cobra explicações da campanha de Lula, PT propõe imposto sobre grandes fortunas, CNJ suspende prazos após pane, União condenada por Canudos, ChatGPT lança carteira para agentes, Chips proibidos em modelos chineses, LangChain vale 3 bilhões, Cúpula europeia de IA em Dublin, De Cos favorito para o BCE, Diesel europeu segue caro, Pane para voos nos EUA, Ucrânia: quem fala pela Europa, França: greve de servidores dia 17.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-14</link>
@@ -139,16 +149,6 @@
       <pubDate>Sun, 01 Nov 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-01.mp3" length="1482285" type="audio/mpeg"/>
       <itunes:duration>4:07</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>UE passa a cobrar taxa de 2 euros sobre todas as encomendas a partir de 1º de novembro</title>
-      <description>Neste episódio: Taxa da UE sobre encomendas, Circular Van Bossuyt e CPAS, Rilatine deixa de ser reembolsado, Hema e trabalho em feriados, Voo de Verlinden em classe executiva, Altos funcionários valões, Ajuda do ONE às creches, PEC da Segurança no Senado, Flávio Bolsonaro em live, Vaga no STF, Exceções ao fim da escala 6x1, Caso Master e prisões preventivas, Anthropic e nota de crédito, Intel despenca na bolsa, Investigação britânica contra Meta, Fitch e a França, Inflação na Itália, Petroleiras e gasolina nos EUA.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-10-31</link>
-      <guid isPermaLink="false">2026-10-31</guid>
-      <pubDate>Sat, 31 Oct 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-10-31.mp3" length="2116605" type="audio/mpeg"/>
-      <itunes:duration>5:52</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
