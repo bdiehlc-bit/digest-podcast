@@ -1,5 +1,33 @@
 [
   {
+    "data": "2026-11-20",
+    "titulo": "Greve e manifestação nacional na segunda, 23/11: o que esperar de trens, ônibus e metrô",
+    "duracao": "6:27",
+    "arquivo": "audio/2026-11-20.mp3",
+    "capitulos": [
+      "Greve nacional na segunda-feira, 23/11",
+      "Orçamento: N-VA e Vooruit voltam a conversar",
+      "Engagés sugerem indexação uma vez por ano",
+      "Câmara aprova regras para doentes de longa duração",
+      "Acordo sobre a fit note",
+      "Alerta laranja de chuva na Valônia",
+      "Fraude social rende mais de 300 milhões",
+      "Fachin envia quatro relatórios à PGR",
+      "Lula assina decreto da jornada 5x2",
+      "Pacote fiscal será votado na Câmara",
+      "Dosimetria será julgada em 4 de dezembro",
+      "PSD insiste em segundo turno no Rio",
+      "Anthropic dispara na estreia na Nasdaq",
+      "Comissão Europeia sofre ataque hacker",
+      "Meta Muse pode expor dados privados",
+      "Trump rejeita regulação global da IA",
+      "Trump, Putin e Xi assinam declaração",
+      "Rússia aceita negociar com os europeus",
+      "Bolsas e ouro caem após estreia",
+      "Data centers podem dobrar consumo de energia"
+    ]
+  },
+  {
     "data": "2026-11-19",
     "titulo": "Crise federal: De Wever retoma conversas sobre o orçamento sem o Vooruit",
     "duracao": "5:05",
@@ -328,28 +356,6 @@
       "Produção industrial alemã",
       "Stephen Miller na Casa Branca",
       "Paraguai destitui presidente"
-    ]
-  },
-  {
-    "data": "2026-11-06",
-    "titulo": "Crise política federal: rei decide hoje sobre a renúncia de De Wever",
-    "duracao": "5:31",
-    "arquivo": "audio/2026-11-06.mp3",
-    "capitulos": [
-      "Crise política e renúncia de De Wever",
-      "Lei das visitas domiciliares aprovada",
-      "Alertas de bomba em voos europeus",
-      "Site mypension.be e recorde de acessos",
-      "Vinheta rodoviária a partir de 2027",
-      "Venda de 20% do Belfius",
-      "Ministério da Segurança Pública no Brasil",
-      "TSE aceita ação do Novo contra Lula",
-      "Lula e medidas de contenção de gastos",
-      "Imposto do pecado em 2027",
-      "OpenAI, Meta e Palo Alto",
-      "Plataforma europeia de chips",
-      "Bolsas em queda e juros no Reino Unido",
-      "China ameaça a UE; Paraguai"
     ]
   }
 ]
