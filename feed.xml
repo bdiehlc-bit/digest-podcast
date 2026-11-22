@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Controladores de voo param e voos nos aeroportos belgas são cancelados na segunda, 23/11</title>
+      <description>Neste episódio: Voos cancelados na segunda, 23/11, Rousseau e De Wever: três horas sem acordo, Groen aceita o nuclear, Defesa amplia base de Heverlee, Recém-formados em TI sem emprego, Bolsonaro na UTI, Lula defende ajuste fiscal, Janja coordena a posse, Zanin suspende congresso do Cidadania, Haddad defende taxar bilionários, Signal limita capturas de tela, FBI investiga invasão de banco de dados, Um mês de ciberataques na Europa, COP31: rascunho sem combustíveis fósseis, Ataque russo a Kryvyi Rih, Irã ataca o Bahrein, Eisenkot convida o Likud.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-22</link>
+      <guid isPermaLink="false">2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-22.mp3" length="1647885" type="audio/mpeg"/>
+      <itunes:duration>4:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Sem acordo no orçamento, governo federal aprova os primeiros duodécimos provisórios</title>
       <description>Neste episódio: Governo aprova duodécimos provisórios, Municípios preparam eleição com voto em papel, Fitch mantém nota A+ da Bélgica, Química belga perdeu 11 mil empregos, Abono de férias dos operários garantido, Novas regras para a renda de integração, 680 novas vagas em creches na Valônia, Jambon quer apertar sociedades de gestão, Bolsonaro é internado em Brasília, Caso Master: sigilo de relatório derrubado, Van Hattem mais perto de virar réu, Moraes mantém Flávio sem passaportes, Temporal devasta Tupanciretã no RS, Hipótese de Riemann resolvida com IA?, Ação da Anthropic cai 8,5%, Bending Spoons compra o Mailchimp, Rússia trava regras para robôs assassinos, Acordo UE–Reino Unido reverte parte do Brexit, Ataques russos matam sete em Kiev, Dinamarca expulsa adido russo.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-21</link>
@@ -139,16 +149,6 @@
       <pubDate>Mon, 09 Nov 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-09.mp3" length="2228493" type="audio/mpeg"/>
       <itunes:duration>6:11</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Bélgica sem orçamento: dívida passa de 719 bilhões de euros</title>
-      <description>Neste episódio: Orçamento e dívida da Bélgica, Ryanair: mala 60 minutos antes, Polícia desocupa prédio da ULB, Prisão de Haren: incidentes graves, Sinagoga de Anderlecht e embaixador dos EUA, Bets: PGR pede suspensão de ações, Desembargadora condenada foge para Portugal, Anac, aviões de Vorcaro e Moraes, Lula e o Centrão.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-08</link>
-      <guid isPermaLink="false">2026-11-08</guid>
-      <pubDate>Sun, 08 Nov 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-08.mp3" length="1929405" type="audio/mpeg"/>
-      <itunes:duration>5:21</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
