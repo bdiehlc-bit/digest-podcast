@@ -1,0 +1,96 @@
+import html
+C="#1F3A5F"
+def esc(s): return html.escape(s, quote=True)
+def item(t,r,p,v,d,l,destaque=False):
+    if destaque:
+        return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#EEF2F7" style="margin:0 0 14px 0;"><tr><td bgcolor="#EEF2F7" style="background-color:#EEF2F7;border-left:4px solid #1F3A5F;padding:16px 18px;"><p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;letter-spacing:1px;color:#1F3A5F;text-transform:uppercase;">Destaque</p><p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.35;font-weight:bold;color:#1F3A5F;"><a href="{esc(l)}" style="color:#1F3A5F;text-decoration:none;">{esc(t)}</a></p><p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222222;">{esc(r)}</p><p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222222;"><b>Por que importa:</b> {esc(p)}</p><p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#666666;">{esc(v)} · {d} · <a href="{esc(l)}" style="color:#1F3A5F;">Ler a matéria</a></p></td></tr></table>\n'
+    return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="margin:0 0 14px 0;"><tr><td bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:16px 18px;"><p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.35;font-weight:bold;color:#1F3A5F;"><a href="{esc(l)}" style="color:#1F3A5F;text-decoration:none;">{esc(t)}</a></p><p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222222;">{esc(r)}</p><p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:#222222;"><b>Por que importa:</b> {esc(p)}</p><p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#666666;">{esc(v)} · {d} · <a href="{esc(l)}" style="color:#1F3A5F;">Ler a matéria</a></p></td></tr></table>\n'
+def sec(n): return f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:10px 0 10px 0;"><tr><td style="border-top:2px solid #1F3A5F;padding-top:10px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#1F3A5F;">{n}</td></tr></table>\n'
+
+D=("Vooruit dá ultimato: taxa dos milionários e indexação intacta, ou outra maioria",
+ "Em entrevista coletiva, Conner Rousseau, presidente do Vooruit, exigiu dos outros quatro partidos da coalizão Arizona uma contribuição extra dos mais ricos e nenhum corte na proteção da indexação salarial — dois pontos ausentes da última proposta orçamentária de De Wever. Se recusarem, disse, que busquem uma “maioria alternativa”. Ele não anunciou saída do governo nem falou em eleições, mas avisou que a negociação não pode se arrastar por semanas.",
+ "O desfecho define se o governo federal sobrevive e se a indexação automática, que protege salários e benefícios da inflação, será mexida — impacto direto no seu contracheque.",
+ "VRT NWS","25/11/2026","https://www.vrt.be/vrtnws/nl/2026/11/25/vooruit-stelt-ultimatum-bij-begroting-eerst-garanties-over-inde/")
+BE=[
+("Atualização: esforço orçamentário chega a cerca de 2% do PIB, diz De Wever",
+ "O primeiro-ministro afirmou que o ajuste necessário subiu para perto de 2% do PIB, algo “nunca visto neste século”. Os presidentes de partido já falavam em 13 bilhões de euros até 2029, em vez de 10; De Wever cita juros mais altos, inflação e a provável alta de cerca de 1,5 bilhão de euros por ano na contribuição belga ao orçamento europeu 2028–2034. O comitê de monitoramento deve atualizar os números no início da próxima semana.",
+ "Quanto maior o buraco, mais duras as medidas possíveis sobre impostos, benefícios e serviços públicos.",
+ "La Libre","25/11/2026","https://www.lalibre.be/belgique/politique-belge/2026/11/25/leffort-budgetaire-a-realiser-monte-a-2-du-pib-cest-du-jamais-vu-depuis-le-debut-de-ce-siecle-salarme-bart-de-wever-FCEA3XOIQNA3NAFPXFOCF7VPGM/"),
+("Reforma da indexação custaria de um a dois meses de salário em dez anos, aponta estudo",
+ "Um estudo do instituto Athéna, criado pelos sindicatos CSC e FGTB, simulou as mudanças em discussão: indexar pela média de 12 meses do índice-saúde e uma vez por ano, em 1º de janeiro. Para um assalariado mediano, a perda seria de cerca de 0,8% do salário (3.567 euros no período); para servidores e aposentados medianos, cerca de 1,7%.",
+ "Dá uma ordem de grandeza do que está em jogo na briga do Vooruit — e vale tanto para salários do setor privado quanto para aposentadorias.",
+ "La Libre","26/11/2026","https://www.lalibre.be/belgique/2026/11/26/crise-politique-la-reforme-de-lindexation-projetee-par-larizona-vous-ferait-perdre-un-a-deux-mois-de-salaire-en-dix-ans-565YB255DFGZ3PZHJETH7XWXA4/"),
+("Cerca de 26 mil pessoas contestam a reforma da previdência na Corte Constitucional",
+ "A ação, liderada pelo PTB, ataca o malus nas aposentadorias, as regras mais duras para a aposentadoria antecipada (de 104 para 156 dias trabalhados por ano para contar sem malus) e a reforma do regime dos servidores. Os autores alegam efeito retroativo e medidas desproporcionais. A decisão é esperada para o próximo outono.",
+ "Se a Corte der razão aos autores, regras de aposentadoria já votadas podem cair ou mudar.",
+ "La Libre","25/11/2026","https://www.lalibre.be/belgique/politique-belge/2026/11/25/reforme-des-pensions-26000-personnes-saisissent-la-cour-constitutionnelle-2RNI2WKO2NAGZLQU2IRGQLIZEQ/"),
+("Justiça anula rota aérea sobre Leuven; Estado tem até 15 de abril para nova rota",
+ "A Corte de Apelação de Bruxelas anulou a rota “Leuven Rechtdoor”, de decolagens das pistas 07L e 07R de Zaventem, por ter sido criada sem estudo aprofundado nem consulta aos moradores. O governo federal terá de desenhar novas rotas envolvendo os municípios afetados.",
+ "Mexe de novo no mapa de sobrevoos do aeroporto de Bruxelas, tema sensível para quem mora no Brabant.",
+ "VRT NWS","26/11/2026","https://www.vrt.be/vrtnws/nl/2026/11/26/hof-van-beroep-vernietigt-vliegroute-leuven-rechtdoor/"),
+("Google segue obra de data center em Farciennes mesmo sem licença, segundo a VRT",
+ "Imagens obtidas pelo Greenpeace mostram a construção avançando, embora o governo valão tenha retirado a licença em agosto; o Google recorreu ao Conselho de Estado. O ministro François Desquesnes diz que a licença original, com refrigeração a ar, continua válida e vai checar se a obra a respeita.",
+ "Um investimento anunciado de 1 bilhão de euros na Valônia, em disputa ambiental e jurídica.",
+ "VRT NWS","25/11/2026","https://www.vrt.be/vrtnws/nl/2026/11/25/google-bouwt-verder-aan-datacenter-farciennes-zonder-vergunning/"),
+("Charleroi ganha a maior fábrica de satélites da União Europeia",
+ "A belga Aerospacelab inaugurou, com o rei Philippe, uma fábrica de cerca de 20 mil m² com capacidade para uns 500 satélites por ano. A empresa tem contrato de 2,4 bilhões de euros para 264 satélites da constelação europeia Iris2; a produção deve começar até o fim de 2028.",
+ "Aposta industrial de peso na Valônia, ligada à soberania espacial europeia.",
+ "Euronews","25/11/2026","https://www.euronews.com/2026/11/25/belgium-opens-europes-largest-satellite-factory-in-charleroi"),
+]
+BR=[
+("EUA recomendam tarifa sobre aviões e açúcar do Brasil; governo diz que é inaceitável",
+ "O escritório comercial dos EUA (USTR) propôs tarifa de 10% sobre aviões brasileiros acabados — o que atinge a Embraer — e alta sobre o açúcar fora da cota. O governo Lula reagiu com “indignação”, disse que o objetivo é pressionar regras como as do Pix e que pode recorrer à OMC, sem descartar reciprocidade.",
+ "Reabre a frente comercial entre Brasil e EUA às vésperas do novo mandato.",
+ "Exame","25/11/2026","https://exame.com/brasil/governo-lula-diz-que-recomendacao-de-novas-tarifas-contra-brasil-e-ameaca-inaceitavel/"),
+("Atualização: Lula sonda Trabuco, do Bradesco, para o novo governo",
+ "Segundo a CNN Brasil, com base em auxiliares, Lula levantou com Luiz Carlos Trabuco, presidente do conselho do Bradesco, a possibilidade de ele integrar o governo a partir de 2027; não houve convite formal. O movimento vem depois de Fernando Haddad avisar que não quer cargo no quarto mandato.",
+ "Um nome bem visto pelo mercado na equipe econômica pesaria no dólar e nos juros.",
+ "CNN Brasil","25/11/2026","https://www.cnnbrasil.com.br/politica/lula-sonda-trabuco-para-fazer-parte-de-novo-governo/"),
+("STF marca para 4 de dezembro julgamento sobre segundo turno no Rio",
+ "O ministro Cristiano Zanin levou ao plenário virtual, de 4 a 15 de dezembro, o pedido do PSD de Eduardo Paes para suspender a decisão do TSE que anulou votos de Anthony Garotinho e deu a vitória a Douglas Ruas (PL) no primeiro turno.",
+ "Pode mudar quem governa o segundo maior estado do país.",
+ "Jovem Pan","25/11/2026","https://jovempan.com.br/politica/stf-marca-julgamento-sobre-segundo-turno-no-rio-para-4-de-dezembro/"),
+]
+TE=[
+("UE propõe Lei Quântica e fundo para mobilizar até 50 bilhões de euros",
+ "A Comissão Europeia apresentou a Quantum Act e um fundo soberano de participação (STEF) que quer atrair até 50 bilhões de euros para quântica e outras tecnologias críticas, como IA, com até 6 euros privados para cada euro público. O fundo deve operar até 2028; a proposta ainda passa pelo Parlamento e pelo Conselho.",
+ "Mostra como a UE tenta não perder a próxima corrida tecnológica para EUA e China.",
+ "Euronews","25/11/2026","https://www.euronews.com/2026/11/25/eu-unveils-50-billion-quantum-industry-investment-plans"),
+("S&P avalia rebaixar a nota de crédito da Nvidia por governança",
+ "A agência estuda cortar a nota da Nvidia de AA para AA-, citando supervisão executiva fraca, falta de plano de sucessão e dependência de Jensen Huang, após sua saída e retorno. A revisão deve sair em até 90 dias e pode encarecer o crédito da empresa e de parceiros que ela garante.",
+ "A Nvidia sustenta boa parte do financiamento da infraestrutura de IA; um abalo ali se espalha pelo setor.",
+ "TechCrunch","25/11/2026","https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"),
+("Estados americanos tentam barrar leilão das conversas privadas da Character.AI",
+ "Uma coalizão de 42 procuradores-gerais estaduais interveio na falência da Character.AI para impedir a venda de dados de conversas de mais de 21 milhões de contas, cerca de 2,1 milhões de menores. O leilão está marcado para 1º de dezembro.",
+ "Caso-teste sobre o que acontece com seus dados de chatbot quando a empresa quebra.",
+ "TechCrunch","25/11/2026","https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"),
+]
+EC=[
+("EUA propõem novas tarifas contra 14 parceiros, incluindo a UE",
+ "Após investigação da Seção 301, Washington planeja tarifa de 15% sobre bens europeus, além das atuais, com exceções para carros, aço, alumínio, remédios patenteados e chips; um rascunho admite até 20%. Comentários vão até 5 de janeiro de 2027. A Comissão “rejeita fortemente” a acusação de excesso de capacidade.",
+ "Exportadores belgas e europeus podem perder competitividade no maior mercado do mundo.",
+ "Euronews","25/11/2026","https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included"),
+("Inflação PCE nos EUA sobe para 3,8% e mercado aposta em alta de juros em dezembro",
+ "O índice preferido do Fed subiu 0,3% em outubro e 3,8% em 12 meses; o núcleo ficou em 3,3%. O mercado vê 97,8% de chance de alta de 0,25 ponto na reunião de 8 e 9 de dezembro.",
+ "Juros mais altos nos EUA pesam sobre o euro, o real e o custo da dívida — inclusive a belga.",
+ "Fox Business","25/11/2026","https://www.foxbusiness.com/economy/october-2026-pce-inflation"),
+("UniCredit recebe último aval, da Polônia, para oferta pelo Commerzbank",
+ "O supervisor financeiro polonês aprovou a mudança indireta de controle do mBank, a última autorização que faltava para a oferta do italiano UniCredit pelo alemão Commerzbank, já liberada pela Comissão Europeia e pelo Fed. As novas ações devem ser creditadas até 7 de dezembro.",
+ "Uma das maiores fusões bancárias europeias, rumo a um setor mais concentrado.",
+ "Euronews","26/11/2026","https://www.euronews.com/2026/11/26/unicredit-secures-final-polish-approval-for-commerzbank-takeover-bid"),
+("Atualização: Líbia promete retaliar após ataque ucraniano a navio russo em Benghazi",
+ "Dois soldados líbios morreram em decorrência do ataque de drone ucraniano de 22 de novembro a um navio de guerra russo no porto de Benghazi. O exército do leste líbio prometeu vingança; a Ucrânia fala em legítima defesa.",
+ "A guerra na Ucrânia se estende ao Mediterrâneo, à porta da Europa.",
+ "Fox News","25/11/2026","https://www.foxnews.com/world/libyans-pledge-retaliate-ukraine-strikes-russian-warship-benghazi-killing-2-soldiers"),
+]
+n=1+len(BE)+len(BR)+len(TE)+len(EC)
+pod='<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#EEF2F7" style="margin:0 0 14px 0;"><tr><td bgcolor="#EEF2F7" style="background-color:#EEF2F7;padding:14px 18px;"><p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222222;"><b>Ouvir o resumo desta edição</b> · 4:28 min, com Ana e Leo</p><table role="presentation" cellpadding="0" cellspacing="0" border="0" bgcolor="#1F3A5F"><tr><td bgcolor="#1F3A5F" style="background-color:#1F3A5F;padding:10px 18px;"><a href="https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-26" style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#FFFFFF;text-decoration:none;">Ouvir agora</a></td></tr></table></td></tr></table>\n'
+h='<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;padding:0;background-color:#FFFFFF;">\n<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tr><td align="center" bgcolor="#FFFFFF" style="background-color:#FFFFFF;padding:16px 8px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:640px;"><tr><td>\n'
+h+='<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#1F3A5F"><tr><td bgcolor="#1F3A5F" style="background-color:#1F3A5F;padding:20px 22px;"><p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:24px;font-weight:bold;color:#FFFFFF;">Digest Diário</p><p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#FFFFFF;">Quinta-feira, 26 de novembro de 2026</p></td></tr></table>\n'
+h+=f'<p style="margin:14px 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#555555;">{n} notícias de 9 veículos · últimas 24 horas (25/11, 09h16, a 26/11, 09h16, horário de Bruxelas)</p>\n'
+h+=pod+item(*D,destaque=True)
+for name,lst in [("Bélgica",BE),("Brasil",BR),("Tecnologia e IA",TE),("Economia e mundo",EC)]:
+    h+=sec(name)+''.join(item(*x) for x in lst)
+h+='<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:8px;"><tr><td style="border-top:1px solid #DDDDDD;padding-top:12px;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;color:#777777;">Montado automaticamente. Cada notícia foi conferida na fonte ou em segunda fonte. Ouça também no seu app de podcast: https://bdiehlc-bit.github.io/digest-podcast/feed.xml</td></tr></table>\n</td></tr></table></td></tr></table></body></html>'
+open('email.html','w',encoding='utf-8').write(h)
+print(n,len(h))
