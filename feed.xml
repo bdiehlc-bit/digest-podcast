@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Crise federal: De Wever reconvoca partidos na segunda; Anders é alternativa ao Vooruit</title>
+      <description>Neste episódio: De Wever reconvoca partidos na segunda, Cuidadores mantêm seguro-desemprego até 2029, Sciensano põe Bélgica em código amarelo, Valônia para obra do Google, Jornalista do Le Soir sai por IA, Trabuco confirmado na Fazenda, Bolsonaro melhora, mas segue na UTI, Comissão aprova prévia do Orçamento 2027, Sabatina do STF fica para 2027, Nvidia suspende envios ao Sudeste Asiático, Temu muda práticas na UE, SpaceX liberada para um milhão de satélites, Cúpula da UE sem acordo no orçamento, Hernández de Cos rumo ao BCE, IG Metall fecha acordo salarial, Zelensky critica Trump e Putin.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-27</link>
+      <guid isPermaLink="false">2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-27.mp3" length="1403229" type="audio/mpeg"/>
+      <itunes:duration>3:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Vooruit dá ultimato: taxa dos milionários e indexação ou outra maioria</title>
       <description>Neste episódio: Ultimato do Vooruit à coalizão, Esforço chega a 2% do PIB, Indexação: perda de até dois salários, 26 mil contestam reforma da previdência, Rota aérea sobre Leuven anulada, Google segue obra sem licença, Maior fábrica de satélites da UE, EUA miram aviões e açúcar do Brasil, Lula sonda Trabuco para o governo, STF julga segundo turno no Rio, UE lança fundo de 50 bilhões, S&amp;P pode rebaixar a Nvidia, Estados barram leilão da Character.AI, EUA propõem tarifas contra a UE, Inflação americana sobe; juros devem subir, UniCredit tem último aval por Commerzbank, Líbia promete retaliar ataque ucraniano.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-26</link>
@@ -139,16 +149,6 @@
       <pubDate>Sat, 14 Nov 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-14.mp3" length="1928541" type="audio/mpeg"/>
       <itunes:duration>5:21</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Titre-service fica mais caro na Valônia a partir de janeiro</title>
-      <description>Neste episódio: Titre-service mais caro na Valônia, Orçamento federal: De Wever na Câmara, Plano Social Clima da Valônia, Crise de acolhimento de asilo, Professores: mais horas mantidas, Excesso de velocidade quase dobra, Senado aprova ajuste fiscal, PGR contra revisão de Bolsonaro, Escala 6x1: regras de transição, Zanin barra segundo turno no Rio, Vorcaro recorre a Gilmar, Huang sai e vai depor, Pane mundial da Microsoft, United barra agentes de IA, Ataque à Fireworks expõe Notion, Europa e as negociações de paz, Mercedes congela investimentos na Alemanha, Reino Unido cresce 0,7%, Holanda: crise no plano fiscal.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-13</link>
-      <guid isPermaLink="false">2026-11-13</guid>
-      <pubDate>Fri, 13 Nov 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-13.mp3" length="1901181" type="audio/mpeg"/>
-      <itunes:duration>5:16</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
