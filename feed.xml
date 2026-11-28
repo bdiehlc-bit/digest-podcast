@@ -12,6 +12,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <item>
+      <title>Rousseau chama de mascarada a reunião de De Wever e impõe condições</title>
+      <description>Neste episódio: Rousseau boicota reunião de De Wever, Pesquisa: Vlaams Belang lidera na Flandres, Prévot rejeita eleições antecipadas, Inflação belga cai para 5,09%, Tribunal de Contas: déficit fora da regra, Câmara amplia direitos do consumidor, Camilo na Casa Civil, Alckmin sondado, Desemprego no Brasil em 5,1%, Superávit recorde em outubro, Dino suspende emendas de Flávio Bolsonaro, Fachin libera R$ 316 milhões ao BRB, SAP estuda cortar 10 mil vagas, Alemanha e Áustria querem TikTok europeu, Ataque cibernético no governo britânico, S&amp;P põe França em perspectiva negativa, França cria reservas de terras raras, Consórcio dos EUA fica com Lukoil, Estônia fecha fronteira com Rússia.</description>
+      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-28</link>
+      <guid isPermaLink="false">2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 06:00:00 +0000</pubDate>
+      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-28.mp3" length="1780653" type="audio/mpeg"/>
+      <itunes:duration>4:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Crise federal: De Wever reconvoca partidos na segunda; Anders é alternativa ao Vooruit</title>
       <description>Neste episódio: De Wever reconvoca partidos na segunda, Cuidadores mantêm seguro-desemprego até 2029, Sciensano põe Bélgica em código amarelo, Valônia para obra do Google, Jornalista do Le Soir sai por IA, Trabuco confirmado na Fazenda, Bolsonaro melhora, mas segue na UTI, Comissão aprova prévia do Orçamento 2027, Sabatina do STF fica para 2027, Nvidia suspende envios ao Sudeste Asiático, Temu muda práticas na UE, SpaceX liberada para um milhão de satélites, Cúpula da UE sem acordo no orçamento, Hernández de Cos rumo ao BCE, IG Metall fecha acordo salarial, Zelensky critica Trump e Putin.</description>
       <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-27</link>
@@ -139,16 +149,6 @@
       <pubDate>Sun, 15 Nov 2026 06:00:00 +0000</pubDate>
       <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-15.mp3" length="1854813" type="audio/mpeg"/>
       <itunes:duration>5:09</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
-    <item>
-      <title>Orçamento belga: sem acordo, núcleo do governo volta a negociar no domingo</title>
-      <description>Neste episódio: Orçamento: sem acordo, kern no domingo, Asilo: casos Dublin perdem acolhimento, SNCB: nova tarifa atrai passageiros, Equinor suspende gasoduto de CO2, Wise fecha acordo com Justiça belga, Senado contesta Dino na escala 6x1, Toffoli cobra explicações da campanha de Lula, PT propõe imposto sobre grandes fortunas, CNJ suspende prazos após pane, União condenada por Canudos, ChatGPT lança carteira para agentes, Chips proibidos em modelos chineses, LangChain vale 3 bilhões, Cúpula europeia de IA em Dublin, De Cos favorito para o BCE, Diesel europeu segue caro, Pane para voos nos EUA, Ucrânia: quem fala pela Europa, França: greve de servidores dia 17.</description>
-      <link>https://bdiehlc-bit.github.io/digest-podcast/?ep=2026-11-14</link>
-      <guid isPermaLink="false">2026-11-14</guid>
-      <pubDate>Sat, 14 Nov 2026 06:00:00 +0000</pubDate>
-      <enclosure url="https://bdiehlc-bit.github.io/digest-podcast/audio/2026-11-14.mp3" length="1928541" type="audio/mpeg"/>
-      <itunes:duration>5:21</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
   </channel>
